@@ -4,6 +4,15 @@
     <ion-toggle  ng-model="settings.enableFriends">
         Enable Friends
     </ion-toggle>
+    
     </ion-list>
-  </ion-content>
+   <div class="bar bar-positive">
+   <ion-list>
+    <button class = "button" ng-click = "showPopup()">Popup Show</button>
+    <button class = "button" ng-click = "showConfirm()">Popup Confirm</button>
+    <button class = "button" ng-click = "showAlert()">Popup Alert</button>
+    <button class = "button" ng-click = "showPrompt()">Popup Prompt</button>
+    </ion-list>
+   </div>
+   </ion-content>
 </ion-view>
